@@ -24,7 +24,6 @@ I want to get knowledge, skills and practice in JavaScript developing and I hope
 - PHP (basic)
 - JavaScript (basic)
 - Git
-- ? Copy-Paste master ?
 
 -----
 

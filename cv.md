@@ -58,5 +58,5 @@ alert (`Результат умножения ${a} и ${b} равен ${result}`
 -----
 
 ### Language:
-Russian - Native
-English level - A1 (YouTube channel English by playlists)
+- Russian - Native
+- English level - A1 (YouTube channel English by playlists)

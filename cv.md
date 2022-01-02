@@ -1,4 +1,4 @@
-# [rsschool-cv](https://mrvolkov2.github.io/rsschool-cv/ "@mrvolkov2")
+﻿# [rsschool-cv](https://mrvolkov2.github.io/rsschool-cv/ "@mrvolkov2")
 
 ![Avatar mrvolkov2](https://avatars.githubusercontent.com/u/92118185?v=4 "Avatar mrvolkov2")
 ## Sergei Volkov
@@ -19,10 +19,10 @@ I want to get knowledge, skills and practice in JavaScript developing and I hope
 -----
 
 ### Skills:
-- HTML (basic)
-- CSS (basic)
-- PHP (basic)
-- JavaScript (basic)
+- HTML
+- CSS
+- PHP
+- JavaScript
 - Git
 
 -----
@@ -34,8 +34,8 @@ function multiply (x, y) {
 }
 let a=3;
 let b=4;
-let result = multiply(3, 4);
-alert (`Результат умножения ${a} и ${b} равен ${result}`);
+let result = multiply(a, b);
+alert (`Result muptiply ${a} and ${b} is ${result}`);
 ```
 
 -----
@@ -45,18 +45,31 @@ alert (`Результат умножения ${a} и ${b} равен ${result}`
 
 -----
 
-### Work expirience:
+### Work experience:
 - Diagnostics of pressure equipment 
 - Nothing yet in program developing
 
 -----
 
 ### Courses:
-- Онлайн курсы: Яндекс практикум, codebra.ru, code-basics.com (основы HTML, основы CSS, основы JS)
+- Online courses: Yandex practicum, codebra.ru, code-basics.com (HTML, CSS, JavaScript)
 - JavaScript (https://learn.javascript.ru/)
+
+-----
+
+### Projects:
+[RSSchool CV: Markdown, HTML + CSS ](https://mrvolkov2.github.io/rsschool-cv/ "@mrvolkov2")
 
 -----
 
 ### Language:
 - Russian - Native
 - English level - A1 (YouTube channel English by playlists)
+
+-----
+
+### My strengs:
+- Team working
+- Fast learning
+- Purposefulness
+- Sociability, politeness and tact

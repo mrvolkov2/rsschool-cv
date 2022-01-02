@@ -1,0 +1,190 @@
+/* styles */
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+
+}@font-face {
+  font-family: 'OpenSans';
+  src: url("assets/fonts/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+  /* Borders and padding include in width and height*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { /* smooth scroll */
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Main axis vertical */
+  justify-content: space-between;
+  min-height: 100vh; /* body not less than page height */
+  margin: 0; /* Remove outer padding for no scrolling */
+  font-family: 'OpenSans', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  background-color: #dddddd;
+}
+
+.body-link {
+  color: #000000;
+  text-decoration-color: #e78514;
+}
+
+.body-link:hover {
+  text-decoration-color: #ffffff;
+}
+
+.header, 
+.footer {
+  background-color: #dddddd;;
+}
+
+.header div, 
+.footer div {
+  background-color: #e78514;
+}
+
+.section-avatar {
+  text-align: center
+}
+
+.avatar-img {
+  border-radius: 50%;
+  height: 250px;
+
+}
+
+h1, 
+h2 {
+  color: #e78514;
+  transition: background-color 0.9s; /* time hover */
+}
+
+h1:hover,
+h2:hover {
+  color: #FFFFFF;
+  background-color: #A0A0A0;
+  cursor: grabbing;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Two columns if width 50% */
+  max-width: 1000px; /* limit width content */
+  margin: 0 auto; /* auto - container in center */
+}
+
+section {
+  padding: 10px;
+  width: 50%;
+  background-color: #f0f0f0;
+  border-bottom-width: 2px; /* Line bottom */
+  border-bottom-style: solid;
+  border-bottom-color: #e78514;
+}
+
+section p {
+  transition: background-color 1s; /* time hover */
+}
+
+section p:hover {
+  color: #FFFFFF;
+  background-color: #e78514; /* background color after hover */
+}
+
+@media (max-width: 600px) {
+  section {
+    width: 100%;
+  }
+}
+
+.nav ul { /* Nav list borders */
+  display: flex;
+  flex-wrap: wrap; /* Allow text wrapping */
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  min-height: 40px; /* Height for two lines if text wrapping */
+}
+
+.nav-link {
+  padding: 10px 15px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  list-style-type: none; /* Hide original marker */
+  color: #FFFFFF;
+  transition: background-color 1s; /* time hover */
+}
+
+.nav-link:hover {
+  background-color: #A0A0A0; /* background color after hover */
+}
+
+section li {
+  list-style-type: none; /* Hide original marker */
+  transition: background-color 0.8s; /* time hover */
+}
+
+section li:hover {
+  color: #FFFFFF;
+  background-color: #e78514;
+}
+
+section li:before {
+  color: #e78514; /* Marker color */
+  content: "✅";
+  padding-right: 10px; /* Padding between marker and text */
+} 
+
+p {
+  text-indent: 20px; /* First line */
+}
+
+.profile-rsschool {
+  text-indent: 0px;
+}
+
+.footer div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-footer {
+  transition: background-color 1s; /* time hover */
+}
+
+.container-footer:hover {
+  background-color: #A0A0A0;
+}
+
+.container-footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer img {
+  height: 60px;
+}
